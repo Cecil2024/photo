@@ -50,7 +50,7 @@ export function TestimonialsSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % testimonials.length)
-    }, 3500)
+    }, 5000)
     return () => clearInterval(interval)
   }, [])
 

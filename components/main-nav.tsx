@@ -20,7 +20,7 @@ export function MainNav() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <div className="flex items-center justify-between w-full px-6 py-2 relative">
+    <div className="flex items-center justify-between w-full px-6 py-6 relative">
       <Link href="/" className="flex items-center">
         <Image
           src="/Logo.png"

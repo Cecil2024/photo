@@ -25,16 +25,15 @@ export function AboutSection() {
               <Link href="#" className="underline underline-offset-4">
                 visual artist
               </Link>{" "}
-              and master in Art History and 10 years ago I found in photography the perfect language.
+              with a master's degree in Art History. Ten years ago, I discovered that photography is the perfect medium for me. 
+
             </p>
             <p>
-              I love to be able to capture those moments where the spontaneity and sentiments remain displayed in
-              magical images. I move away from the convention of portrait photography and give it an artistic and
-              contemporary touch.
+              I love capturing those spontaneous moments filled with emotion and transforming them into magical images. I move away from conventional portrait photography, offering an artistic and contemporary perspective instead.
             </p>
             <p>
-              I am a traveling soul and I love challenges, so if you want me to move for your photo session, I will do
-              it with even greater pleasure.
+              I am based in London, but I have lived in different countries and
+              traveled to many more, which has given me a unique perspective on the world and the people in it.
             </p>
             <p>Don&apos;t hesitate to contact me for more information!</p>
           </div>

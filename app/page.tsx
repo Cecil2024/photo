@@ -64,7 +64,7 @@ export default function Page() {
         </section>
       </main>
       <footer className="border-t">
-        <div className="container flex h-16 items-center justify-between ml-[30px]">
+        <div className="container flex h-16 items-center justify-between">
           <p className="text-sm text-gray-500">© 2025 Connie Ramirez Photography. London, UK. All rights reserved.</p>
           <div className="flex items-center gap-4">
           </div>

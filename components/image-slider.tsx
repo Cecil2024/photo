@@ -56,7 +56,7 @@ export function ImageSlider() {
     if (!emblaApi) return
     const autoplay = setInterval(() => {
       emblaApi.scrollNext()
-    }, 3500)
+    }, 4000)
     return () => clearInterval(autoplay)
   }, [emblaApi])
   // ----------------------
@@ -67,7 +67,7 @@ export function ImageSlider() {
         <div className="flex touch-pan-y">
           {slides.map((slide, index) => (
             <div className="relative min-w-0 flex-[0_0_100%] overflow-hidden" key={index}>
-              <div className="relative aspect-[21/9]">
+              <div className="relative aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9]">
                 <Image
                   src={slide.src || "/placeholder.svg"}
                   alt={slide.alt}
