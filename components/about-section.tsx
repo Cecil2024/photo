@@ -22,7 +22,7 @@ export function AboutSection() {
           <div className="space-y-6 text-sm leading-relaxed text-gray-600 md:text-base text-justify">
             <p>
               My name is Connie. I am a{" "}
-              <Link href="#" className="underline underline-offset-4">
+              <Link href="https://v0-conniearts-website-clone.vercel.app/" className="underline underline-offset-4">
                 visual artist
               </Link>{" "}
               with a master's degree in Art History. Ten years ago, I discovered that photography is the perfect medium for me. 

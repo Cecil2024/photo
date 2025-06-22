@@ -41,7 +41,7 @@ export default function ServicesPage() {
         "8 edited high-resolution digital images",
         "Print release",
       ],
-      price: "£99",
+      price: "Starting from £97",
       image: "/dad and daugther.jpg?height=600&width=800",
       link: "https://tidycal.com/connieramirezphotography/45-minute-family"
     },
@@ -50,13 +50,13 @@ export default function ServicesPage() {
       description:
         "Your wedding day is one of the most important days of your life. I provide comprehensive coverage from preparation to reception, ensuring every special moment is captured. My approach combines documentary-style photography with artistic portraits.",
       details: [
-        "Full day coverage (up to 7 hours)",
-        "400+ edited high-resolution digital images",
-        "Online gallery",
+        "An initial consultation via phone/zoom to learn about each other with no obligation to book","Ceremony coverage (up to 1 hour)",
+        "80 pics professionally edited",
         "Print release",
-        "Engagement or Prewedding session included",
+        "Anywhere in London",
+        "Additional hours available",
       ],
-      price: "Starting from £1,500",
+      price: "Starting from £300",
       image: "/wedding blue sky.jpg?height=600&width=800",
       link: "https://tidycal.com/connieramirezphotography/15-minute-meeting"
     },
@@ -134,6 +134,26 @@ export default function ServicesPage() {
                 </div>
                 <div className="space-y-4">
                   <p className="text-xl font-light">{service.price}</p>
+                  {service.title === "FAMILY PHOTOGRAPHY" && (
+                    <a
+                      href="/Family Prices.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mb-2 px-4 py-2 rounded-full bg-[#777278] text-white font-normal shadow hover:bg-primary/90 transition-colors text-sm"
+                    >
+                      Download Family Brochure (PDF)
+                    </a>
+                  )}
+                  {service.title === "WEDDING PHOTOGRAPHY" && (
+                    <a
+                      href="/wedding-prices.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mb-2 px-4 py-2 rounded-full bg-[#777278] text-white font-normal shadow hover:bg-primary/90 transition-colors text-sm"
+                    >
+                      Download Wedding Brochure (PDF)
+                    </a>
+                  )}
                   <a
                     href={service.link}
                     target="_blank"
