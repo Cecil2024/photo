@@ -43,7 +43,7 @@ export default function ServicesPage() {
       ],
       price: "Starting from £97",
       image: "/dad and daugther.jpg?height=600&width=800",
-      link: "https://tidycal.com/connieramirezphotography/45-minute-family"
+      link: "https://tidycal.com/connieramirezphotography"
     },
     {
       title: "WEDDING PHOTOGRAPHY",
