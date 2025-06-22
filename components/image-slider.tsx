@@ -10,8 +10,12 @@ import { Button } from "@/components/ui/button"
 // Replace these with your actual images
 const slides = [
   {
-    src: "/celebrating.jpg",
+    src: "/london woman.jpg",
     alt: "Photography slide 1",
+  },
+  {
+    src: "/wedding dancing.jpg",
+    alt: "Photography slide 4",
   },
   {
     src: "/portrait young woman.jpg",
@@ -20,10 +24,6 @@ const slides = [
   {
     src: "/wedding at see.jpg",
     alt: "Photography slide 3",
-  },
-  {
-    src: "/wedding dancing.jpg",
-    alt: "Photography slide 4",
   },
 ]
 
