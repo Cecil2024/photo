@@ -86,7 +86,7 @@ export default function ServicesPage() {
         "Fast turnaround",
       ],
       price: "Starting from £110/session",
-      image: "/cappuccino.jpeg?height=600&width=800",
+      image: "/merengues.jpg?height=600&width=800",
       link: "https://tidycal.com/connieramirezphotography/15-minute-meeting"
     },
   ]
