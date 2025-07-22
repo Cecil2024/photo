@@ -32,8 +32,10 @@ export function AboutSection() {
               I love capturing those spontaneous moments filled with emotion and transforming them into magical images. I move away from conventional portrait photography, offering an artistic and contemporary perspective instead.
             </p>
             <p>
-              I am based in London, but I have lived in different countries and
-              traveled to many more, which has given me a unique perspective on the world and the people in it.
+              Currently based in London, I&apos;ve had the wonderful opportunity to live in various countries and travel to many more! This experience has given me a unique perspective on the world and the amazing people in it. 
+            </p>
+            <p>
+              I&apos;m passionate about creating a comfortable and enjoyable atmosphere during our sessions, allowing you to be yourself and shine in front of the camera. Not all photographers excel at working with kids or making people feel at ease, but I pride myself on being able to do both! My goal is to capture your true essence and create images that you will cherish forever, especially when you forget the camera is there.
             </p>
             <p>Don&apos;t hesitate to contact me for more information!</p>
           </div>
