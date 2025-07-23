@@ -15,6 +15,10 @@ const images = [
     alt: "Romantic portrait of a couple kissing on the shoulder",
   },
   {
+    src: "/nido 1.jpg",
+    alt: "Mouthwatering jam at nest merengue",
+  },
+  {
     src: "/mr n mrs.jpg",
     alt: "Wedding decoration with Mr and Mrs sign",
   },
@@ -39,6 +43,10 @@ const images = [
     alt: "Wedding rings",
   },
   {
+    src: "/taco 1.jpg",
+    alt: "Taco with chili and lime",
+  },
+  {
     src: "/young londoner.jpg?height=600&width=800",
     alt: "Lifestyle photo 2",
   },
@@ -53,6 +61,10 @@ const images = [
   {
     src: "/young woman in London.jpg?height=600&width=800",
     alt: "Lifestyle photo 2",
+  },
+  {
+    src: "/Birra.jpg",
+    alt: "Lager beer in a glass",
   },
 ]
 
