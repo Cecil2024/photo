@@ -24,7 +24,6 @@ export default function ServicesPage() {
       details: [
         "1 hour session",
         "30 edited high-resolution digital images",
-        "1 digital album",
         "Print release",
       ],
       price: "£79",
