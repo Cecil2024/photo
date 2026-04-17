@@ -9,12 +9,11 @@ export default function ServicesPage() {
       description:
         "Portrait photography is a way to tell your story through images. I love to capture the essence of people, their personality, and their emotions. My style is natural and relaxed, focusing on creating authentic moments that reflect who you are.",
       details: [
-        "30-minute session",
-        "5 edited high-resolution digital images",
-        "2 black & white edits included",
+        "1 hour session",
+        "15 edited high-resolution digital images",
         "Print release",
       ],
-      price: "£79",
+      price: "£35",
       image: "/greenwich.jpg?height=600&width=800",
       link: "https://tidycal.com/connieramirezphotography/30-minute-portrait"
     },
@@ -23,12 +22,12 @@ export default function ServicesPage() {
       description:
         "Whether it's an engagement, anniversary, or just because, couple photography is about capturing the love and connection between two people. I focus on creating natural, candid moments that showcase your unique relationship.",
       details: [
-        "45-minute session",
-        "6 edited high-resolution digital images",
-        "1 social media teaser clip",
+        "1 hour session",
+        "30 edited high-resolution digital images",
+        "1 digital album",
         "Print release",
       ],
-      price: "£89",
+      price: "£79",
       image: "/couple.jpg?height=600&width=800",
       link: "https://tidycal.com/connieramirezphotography/45-minute-couple"
     },
@@ -38,7 +37,7 @@ export default function ServicesPage() {
         "Family photography sessions are all about capturing the love, connection, and fun between family members. I create a relaxed environment so everyone feels comfortable, resulting in natural and joyful images you’ll cherish forever.",
       details: [
         "45-minute session",
-        "8 edited high-resolution digital images",
+        "20 edited high-resolution digital images",
         "Print release",
       ],
       price: "Starting from £97",
