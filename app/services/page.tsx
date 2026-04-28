@@ -134,22 +134,22 @@ export default function ServicesPage() {
                   <p className="text-xl font-light">{service.price}</p>
                   {service.title === "FAMILY PHOTOGRAPHY" && (
                     <a
-                      href="/Family Prices.pdf"
+                      href="/brochures/family"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block mb-2 px-4 py-2 rounded-full bg-[#777278] text-white font-normal shadow hover:bg-primary/90 transition-colors text-sm"
                     >
-                      Download Family Brochure (PDF)
+                      View Family Brochure (PDF)
                     </a>
                   )}
                   {service.title === "WEDDING PHOTOGRAPHY" && (
                     <a
-                      href="/wedding-prices.pdf"
+                      href="/brochures/wedding"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block mb-2 px-4 py-2 rounded-full bg-[#777278] text-white font-normal shadow hover:bg-primary/90 transition-colors text-sm"
                     >
-                      Download Wedding Brochure (PDF)
+                      View Wedding Brochure (PDF)
                     </a>
                   )}
                   <a

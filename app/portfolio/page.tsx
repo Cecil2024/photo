@@ -1,6 +1,6 @@
 import { MainNav } from "@/components/main-nav"
 import { Gallery } from "@/components/gallery"
-import { Instagram } from "lucide-react"
+import { Instagram, BookOpen } from "lucide-react"
 
 export default function PortfolioPage() {
   return (
@@ -33,6 +33,21 @@ export default function PortfolioPage() {
           Visit Instagram
         </a>
       </section>
+      {/* Blog Section */}
+      <section className="mx-[40px] mb-8 rounded-2xl bg-white p-8 flex flex-col items-center text-center border border-gray-100">
+        <h2 className="font-title text-2xl mb-4 tracking-[0.2em]">Read My Blog</h2>
+        <p className="mb-6 text-gray-600">Discover photography tips, insights, and stories from my journey!</p>
+        <a
+          href="http://blog.connieramphoto.co.uk/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center px-6 py-3 rounded-full bg-[#F58E92] text-white font-semibold shadow hover:bg-primary/90 transition-colors"
+        >
+          <BookOpen className="w-5 h-5 mr-2" />
+          Visit Blog
+        </a>
+      </section>
+
 
       {/* Footer */}
       <footer className="border-t mt-8">
