@@ -33,33 +33,45 @@ export function ContactForm() {
   })
 
   const [submitting, setSubmitting] = useState(false)
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
+  const [statusMessage, setStatusMessage] = useState("")
 
   const FORMSPREE_ENDPOINT = "https://formspree.io/f/mrejzqdd"
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setSubmitting(true)
+    setStatus("idle")
+    setStatusMessage("")
+
     try {
+      const formData = new FormData()
+      formData.append("name", values.name)
+      formData.append("email", values.email)
+      formData.append("message", values.message)
+
       const res = await fetch(FORMSPREE_ENDPOINT, {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: JSON.stringify(values),
+        body: formData,
       })
 
-      const data = await res.json()
+      const data = await res.json().catch(() => null)
 
       if (!res.ok) {
         console.error("Formspree error:", data)
-        throw new Error(data.error || "Failed to submit form")
+        const message = data?.errors?.[0]?.message || data?.error || "Failed to submit form"
+        throw new Error(message)
       }
 
       form.reset()
-      alert("Message sent — thank you!")
+      setStatus("success")
+      setStatusMessage("Message sent — thank you!")
     } catch (err) {
       console.error(err)
-      alert("Something went wrong. Please try again later.")
+      setStatus("error")
+      setStatusMessage(err instanceof Error ? err.message : "Something went wrong. Please try again later.")
     } finally {
       setSubmitting(false)
     }
@@ -110,6 +122,16 @@ export function ContactForm() {
         <Button type="submit" className="w-full" disabled={submitting}>
           {submitting ? "Sending…" : "Send Message"}
         </Button>
+
+        {statusMessage ? (
+          <p
+            className={`text-sm ${status === "success" ? "text-green-600" : "text-red-600"}`}
+            role="status"
+            aria-live="polite"
+          >
+            {statusMessage}
+          </p>
+        ) : null}
       </form>
     </Form>
   )
