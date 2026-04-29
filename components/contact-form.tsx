@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
@@ -31,9 +32,37 @@ export function ContactForm() {
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    // Here you would typically send the form data to your server
-    console.log(values)
+  const [submitting, setSubmitting] = useState(false)
+
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/mrejzqdd"
+
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setSubmitting(true)
+    try {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(values),
+      })
+
+      const data = await res.json()
+
+      if (!res.ok) {
+        console.error("Formspree error:", data)
+        throw new Error(data.error || "Failed to submit form")
+      }
+
+      form.reset()
+      alert("Message sent — thank you!")
+    } catch (err) {
+      console.error(err)
+      alert("Something went wrong. Please try again later.")
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -78,8 +107,8 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full">
-          Send Message
+        <Button type="submit" className="w-full" disabled={submitting}>
+          {submitting ? "Sending…" : "Send Message"}
         </Button>
       </form>
     </Form>

@@ -21,7 +21,7 @@ export function BookingSection() {
             Schedule a free consultation to discuss your ideas, needs, and how I can help capture your story.
           </p>
           <a
-            href="https://tidycal.com/connieramirezphotography/15-minute-meeting"
+            href="https://schedule.connieramphoto.co.uk/15-minute-meeting"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-full bg-[#777278] text-white font-normal shadow hover:bg-primary/90 transition-colors text-sm"
@@ -45,7 +45,7 @@ export function BookingSection() {
             Capture memories with your loved ones in a relaxed, fun session at your favorite location.
           </p>
           <a
-            href="https://tidycal.com/connieramirezphotography/45-minute-family"
+            href="https://schedule.connieramphoto.co.uk/45-minute-family"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-full bg-[#F58E92] text-white font-normal shadow hover:bg-primary/90 transition-colors text-sm"
@@ -69,7 +69,7 @@ export function BookingSection() {
             Book a personal or professional portrait session and let’s create beautiful, authentic images together.
           </p>
           <a
-            href="https://tidycal.com/connieramirezphotography/30-minute-portraits"
+            href="https://schedule.connieramphoto.co.uk/60-minute-portrait"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-full bg-[#F58E92] text-white font-normal shadow hover:bg-primary/90 transition-colors text-sm"

@@ -12,7 +12,7 @@ const links = [
   { href: "/services", label: "Services" },
   { href: "/#about", label: "About" },
   { href: "/#contact", label: "Contact" },
-  { href: "https://tidycal.com/connieramirezphotography", label: "Book Now" },
+  { href: "https://schedule.connieramphoto.co.uk/", label: "Book Now" },
 ]
 
 export function MainNav() {

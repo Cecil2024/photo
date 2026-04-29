@@ -22,10 +22,10 @@ export function AboutSection() {
           <div className="space-y-6 text-sm leading-relaxed text-gray-600 md:text-base text-justify">
             <p>
               My name is Connie. I am a{" "}
-              <Link href="https://v0-conniearts-website-clone.vercel.app/" className="underline underline-offset-4">
+              <Link href="https://www.connievisualarts.com/" target="_blank" rel="noopener noreferrer"className="underline underline-offset-4">
                 visual artist
               </Link>{" "}
-              with a master's degree in Art History. Ten years ago, I discovered that photography is the perfect medium for me. 
+              with a master's degree in Art History. Twelve years ago, I discovered that photography is the perfect medium for me. 
 
             </p>
             <p>
@@ -40,7 +40,7 @@ export function AboutSection() {
             <p>Don&apos;t hesitate to contact me for more information!</p>
           </div>
           <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:gap-8">
-            <Link href="https://tidycal.com/connieramirezphotography" className="px-4 py-2 rounded-full bg-[#F58E92] text-white font-normal shadow hover:bg-primary/90 transition-colors inline-block">
+            <Link href="https://schedule.connieramphoto.co.uk/" className="px-4 py-2 rounded-full bg-[#F58E92] text-white font-normal shadow hover:bg-primary/90 transition-colors inline-block">
               BOOK SESSION
             </Link>
             <Link href="/services" className="px-4 py-2 rounded-full bg-[#777278] text-white font-normal shadow hover:bg-primary/90 transition-colors inline-block">

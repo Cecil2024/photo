@@ -52,7 +52,7 @@ export default function PortfolioPage() {
       {/* Footer */}
       <footer className="border-t mt-8">
         <div className="mx-[40px] flex h-16 items-center justify-between">
-          <p className="text-sm text-gray-500">© 2025 Connie Ramirez Photography. London, UK. All rights reserved.</p>
+          <p className="text-sm text-gray-500">© 2026 Connie Ramirez Photography. London, UK. All rights reserved.</p>
           <div className="flex items-center gap-4"></div>
         </div>
       </footer>

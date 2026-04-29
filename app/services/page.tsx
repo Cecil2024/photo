@@ -15,7 +15,7 @@ export default function ServicesPage() {
       ],
       price: "£35",
       image: "/greenwich.jpg?height=600&width=800",
-      link: "https://tidycal.com/connieramirezphotography/30-minute-portrait"
+      link: "https://schedule.connieramphoto.co.uk/60-minute-portrait"
     },
     {
       title: "COUPLE PHOTOGRAPHY",
@@ -28,7 +28,7 @@ export default function ServicesPage() {
       ],
       price: "£79",
       image: "/couple.jpg?height=600&width=800",
-      link: "https://tidycal.com/connieramirezphotography/45-minute-couple"
+      link: "https://schedule.connieramphoto.co.uk/60-minute-couple"
     },
     {
       title: "FAMILY PHOTOGRAPHY",
@@ -41,7 +41,7 @@ export default function ServicesPage() {
       ],
       price: "Starting from £97",
       image: "/dad and daugther.jpg?height=600&width=800",
-      link: "https://tidycal.com/connieramirezphotography"
+      link: "https://schedule.connieramphoto.co.uk/"
     },
     {
       title: "WEDDING PHOTOGRAPHY",
@@ -56,7 +56,7 @@ export default function ServicesPage() {
       ],
       price: "Starting from £300",
       image: "/wedding blue sky.jpg?height=600&width=800",
-      link: "https://tidycal.com/connieramirezphotography/15-minute-meeting"
+      link: "https://schedule.connieramphoto.co.uk/15-minute-meeting"
     },
     {
       title: "EVENT PHOTOGRAPHY",
@@ -70,7 +70,7 @@ export default function ServicesPage() {
       ],
       price: "Starting from £130/hour",
       image: "/stand up.jpg?height=600&width=800",
-      link: "https://tidycal.com/connieramirezphotography/15-minute-meeting"
+      link: "https://schedule.connieramphoto.co.uk/15-minute-meeting"
     },
     {
       title: "PRODUCT PHOTOGRAPHY",
@@ -85,7 +85,7 @@ export default function ServicesPage() {
       ],
       price: "Starting from £110/session",
       image: "/merengues.jpg?height=600&width=800",
-      link: "https://tidycal.com/connieramirezphotography/15-minute-meeting"
+      link: "https://schedule.connieramphoto.co.uk/15-minute-meeting"
     },
   ]
 
@@ -170,7 +170,7 @@ export default function ServicesPage() {
       {/* Footer */}
       <footer className="border-t mt-8">
         <div className="mx-[40px] flex h-16 items-center justify-between">
-          <p className="text-sm text-gray-500">© 2025 Connie Ramirez Photography. London, UK. All rights reserved.</p>
+          <p className="text-sm text-gray-500">© 2026 Connie Ramirez Photography. London, UK. All rights reserved.</p>
           <div className="flex items-center gap-4"></div>
         </div>
       </footer>
