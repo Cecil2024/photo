@@ -33,7 +33,7 @@ export function ContactForm() {
   })
 
   const [submitting, setSubmitting] = useState(false)
-  const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idlye")
   const [statusMessage, setStatusMessage] = useState("")
 
   const FORMSPREE_ENDPOINT = "https://formspree.io/f/mrejzqdd"

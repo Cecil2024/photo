@@ -13,7 +13,7 @@ export default function ServicesPage() {
         "15 edited high-resolution digital images",
         "Print release",
       ],
-      price: "£35",
+      price: "£45",
       image: "/greenwich.jpg?height=600&width=800",
       link: "https://schedule.connieramphoto.co.uk/60-minute-portrait"
     },
